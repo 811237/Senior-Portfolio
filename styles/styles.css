@@ -1,3 +1,10 @@
+/*KEYFRAMES*/
+@keyframes header-link {
+    from{font-size: 1em;}
+    to{font-size:1.05em; color: rgb(108, 108, 255); text-decoration: underline;}
+}
+
+/*STYLES*/
 #offcanvas {
     color: rgb(239, 239, 239);
     background-color: rgb(46, 46, 46);
@@ -21,6 +28,23 @@
     margin: 5px;
     padding: 5px 0px;
     color: rgb(208, 208, 208);
+}
+
+#offcanvas-body-styling a {
+    font-size: 1em;
+    color: rgb(134, 134, 255);
+    text-decoration: none;
+}
+
+#offcanvas-body-styling a:hover {
+    font-size: 1.1em;
+    animation: header-link .3s forwards;
+}
+
+#offcanvas-body-styling ul {
+    border-bottom: 1px solid rgba(129, 129, 129, .7);
+    list-style: none;
+    padding: 15px 15px;
 }
 
 #about-me {
