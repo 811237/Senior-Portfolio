@@ -1,0 +1,35 @@
+#offcanvas {
+    color: rgb(239, 239, 239);
+    background-color: rgb(46, 46, 46);
+}
+
+#offcanvas-header-styling {
+    border-bottom: 1px solid rgba(129, 129, 129, .7);
+    font-size: 1.5em;
+}
+
+#header-btn-close {
+    background-color: rgb(239, 239, 239);
+    border: 1px solid rgba(129, 129, 129, .7);
+    font-size: .7em!important;
+}
+
+#offcanvas-body-styling {
+    background-color: rgb(36, 36, 36);
+    border: 1px solid rgba(129, 129, 129, .7);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 0px;
+    color: rgb(208, 208, 208);
+}
+
+#about-me {
+    color: rgb(197, 197, 197);
+    font-size: 1.3em;
+    width: 100%;
+    border-bottom: 1px solid rgba(129, 129, 129, .7);
+}
+
+#about-me p {
+    padding: 5px 15px 0px 15px;
+}
