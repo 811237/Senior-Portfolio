@@ -5,6 +5,10 @@
 }
 
 /*STYLES*/
+.invis {
+    visibility: hidden;
+}
+
 #offcanvas {
     color: rgb(239, 239, 239);
     background-color: rgb(46, 46, 46);
