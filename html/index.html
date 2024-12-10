@@ -9,12 +9,12 @@
         <!--NON-BOOTSTRAP-->
         <link rel="stylesheet" href="/styles/styles.css">
         <script src="/scripts/scripts.js"></script>
-        <!--FONT-AWESOME-->
-        <script src="https://kit.fontawesome.com/167abb1820.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script rel="scripts" src="/scripts/scripts.js"></script>
 
     </head>
     <body>
-        <navbar-container>
+        <!--<navbar-container>
             <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                 <div class="offcanvas-header" id="offcanvas-header-styling">
                   <h5 class="offcanvas-title" id="offcanvasLabel">Hi, I'm Trevin.</h5>
@@ -26,19 +26,52 @@
                         <li><a href="#">What I'm Working Towards</a></li>
                         <li><a href="#">Personal Information</a></li>
                         <li class="dropdown">
-                            <a href="#" role="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Means Of Contact</a>
-                            <ul class="invis" id="contact">
-                                <li>Email: &lt;<a href="#">trevinnolan4devwork@gmail.com</a>&gt;</li>
-                                <li>LinkedIn: &lt;<a href="#">Another action</a>&gt;</li>
-                                <li>GitHub: &lt;<a href="#">Something else here</a>&gt;</li>
+                            <a href="#" role="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="contact-btn">Means Of Contact</a>
+                            <ul class="invis offcanvas-dropdown" id="contact">
+                                <li>Email: &lt;<a href="mailto:trevinnolan4devwork@gmail.com" target="_blank">trevinnolan4devwork@gmail.com</a>&gt;</li>
+                                <li>LinkedIn: &lt;<a href="#" target="_blank">Trevin Nolan</a>&gt;</li>
+                                <li>GitHub: &lt;<a href="#" target="_blank">811237</a>&gt;</li>
                               </ul>
                         </li>
                     </ul>
+                    <div class="header-content-title" id="projects"><p>Projects</p></div>
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#" role="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="personal-proj-btn">Personal Projects</a>
+                            <ul class="invis offcanvas-dropdown" id="personal-proj">
+                                <li>&lt;<a href="#">trevinnolan4devwork@gmail.com</a>&gt;</li>
+                                <li>&lt;<a href="#">Another action</a>&gt;</li>
+                                <li>&lt;<a href="#">Something else here</a>&gt;</li>
+                              </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" role="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="group-proj-btn">Group Projects</a>
+                            <ul class="invis offcanvas-dropdown" id="group-proj">
+                                <li>&lt;<a href="#">trevinnolan4devwork@gmail.com</a>&gt;</li>
+                                <li>&lt;<a href="#">Another action</a>&gt;</li>
+                                <li>&lt;<a href="#">Something else here</a>&gt;</li>
+                              </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" role="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="school-proj-btn">School Projects</a>
+                            <ul class="invis offcanvas-dropdown" id="school-proj">
+                                <li>&lt;<a href="#">trevinnolan4devwork@gmail.com</a>&gt;</li>
+                                <li>&lt;<a href="#">Another action</a>&gt;</li>
+                                <li>&lt;<a href="#">Something else here</a>&gt;</li>
+                              </ul>
+                        </li>
+                    </ul>
+                    <div class="header-content-title" id="certificates"><p>Certificates</p></div>
+                    <ul id="offcanvas-final-section">
+                        <li><a href="#">Click here to view my certificates.</a></li>
+                    </ul>
                 </div>
             </div>
-        </navbar-container>
+        </navbar-container>-->
         <main>
-
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="offcanvas">
+                
+            </button>
         </main>
     </body>
 </html>

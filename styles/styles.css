@@ -6,7 +6,28 @@
 
 /*STYLES*/
 .invis {
-    visibility: hidden;
+    display: none;
+}
+
+.header-content-title {
+    color: rgb(197, 197, 197);
+    font-size: 1.3em;
+    width: 100%;
+    border-bottom: 1px solid rgba(129, 129, 129, .7);
+}
+
+.header-content-title > p {
+    padding: 5px 15px 0px 15px;
+}
+
+.offcanvas-dropdown {
+    border: 1px solid rgba(129, 129, 129, .7);
+    border-radius: 5px;
+    background-color: rgb(46, 46, 46);
+}
+
+.dropdown {
+    border: none;
 }
 
 #offcanvas {
@@ -51,13 +72,6 @@
     padding: 15px 15px;
 }
 
-#about-me {
-    color: rgb(197, 197, 197);
-    font-size: 1.3em;
-    width: 100%;
-    border-bottom: 1px solid rgba(129, 129, 129, .7);
-}
-
-#about-me p {
-    padding: 5px 15px 0px 15px;
+#offcanvas-final-section {
+    border: none!important;
 }
