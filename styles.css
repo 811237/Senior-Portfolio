@@ -14,25 +14,6 @@
     to{background-color: rgb(26, 26, 26);}
 }
 
-/*MEDIA QUERIES*/
-@media (min-width: 1024px) {
-    .main {
-        width: 75%;
-    }
-}
-
-@media (min-width: 768px) {
-    .main {
-        width: 85%;
-    }
-}
-
-@media (min-width: 512px) {
-    .main {
-        width: 95%;
-    }
-}
-
 /*STYLES*/
 body {
     background-color: rgb(16, 16, 26);
@@ -168,3 +149,21 @@ main {
     animation: offcanvas-toggle-btn-active .2s forwards;
 }
 
+/*MEDIA QUERIES*/
+@media (min-width: 1024px) {
+    .main {
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) {
+    .main {
+        width: 85%;
+    }
+}
+
+@media (min-width: 512px) {
+    .main {
+        width: 95%;
+    }
+}
