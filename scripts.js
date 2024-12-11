@@ -32,6 +32,22 @@ $(document).ready(function(){
         }
     });
 
+    $('#references-btn').click(function(){
+        if($('#references').css('display') == 'none'){
+            $('#references').slideDown('slow');
+        }else{
+            $('#references').slideUp('slow');
+        }
+    });
+
+    $('#mrs-ramsey-ref-btn').click(function(){
+        if($('#mrs-ramsey-ref').css('display') == 'none'){
+            $('#mrs-ramsey-ref').slideDown('slow');
+        }else{
+            $('#mrs-ramsey-ref').slideUp('slow');
+        }
+    });
+
     $('#offcanvas-toggle-btn').click(function(){
         $('#offcanvas-toggle-btn').animate({left: '-=50px'}, 'slow');
     });
