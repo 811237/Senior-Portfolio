@@ -1,5 +1,6 @@
 //JQuery
 $(document).ready(function(){
+
     $('#contact-btn').click(function(){
         if($('#contact').css('display') == 'none'){
             $('#contact').slideDown('slow');
