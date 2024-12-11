@@ -7,9 +7,7 @@ $(document).ready(function(){
             $('#contact').slideUp('slow');
         }
     });
-});
 
-$(document).ready(function(){
     $('#personal-proj-btn').click(function(){
         if($('#personal-proj').css('display') == 'none'){
             $('#personal-proj').slideDown('slow');
@@ -17,9 +15,7 @@ $(document).ready(function(){
             $('#personal-proj').slideUp('slow');
         }
     });
-});
 
-$(document).ready(function(){
     $('#group-proj-btn').click(function(){
         if($('#group-proj').css('display') == 'none'){
             $('#group-proj').slideDown('slow');
@@ -27,9 +23,7 @@ $(document).ready(function(){
             $('#group-proj').slideUp('slow');
         }
     });
-});
 
-$(document).ready(function(){
     $('#school-proj-btn').click(function(){
         if($('#school-proj').css('display') == 'none'){
             $('#school-proj').slideDown('slow');
@@ -37,4 +31,19 @@ $(document).ready(function(){
             $('#school-proj').slideUp('slow');
         }
     });
+
+    $('#offcanvas-toggle-btn').click(function(){
+        $('#offcanvas-toggle-btn').animate({left: '-=50px'}, 'slow');
+    });
+
+    $('#offcanvas-toggle-btn').hover(function(){
+        $('#offcanvas-toggle-btn > div').css('background-color', 'rgb(197, 197, 197)');
+    },
+    function(){
+        $('#offcanvas-toggle-btn > div').css('background-color', 'rgb(56, 56, 56)');
+    });
+
+    $('#header-btn-close').click(function(){
+        $('#offcanvas-toggle-btn').animate({left: '+=50px'}, 'slow');
+    })
 });

@@ -4,7 +4,31 @@
     to{font-size:1.05em; color: rgb(108, 108, 255); text-decoration: underline;}
 }
 
+@keyframes offcanvas-toggle-btn-hover {
+    from{}
+    to{background-color: rgb(56, 56, 56);}
+}
+
+@keyframes offcanvas-toggle-btn-active {
+    from{background-color: rgb(56, 56, 56);}
+    to{background-color: rgb(26, 26, 26);}
+}
+
 /*STYLES*/
+body {
+    background-color: rgb(16, 16, 26);
+}
+
+main {
+    border-radius: 5px;
+    background-color: rgb(46, 46, 46);
+    color: rgb(239, 239, 239);
+    display: block;
+    margin: 4.5vh auto 0 auto;
+    width: 95%;
+    padding: 5px 15px;
+}
+
 .invis {
     display: none;
 }
@@ -74,4 +98,35 @@
 
 #offcanvas-final-section {
     border: none!important;
+}
+
+#offcanvas-toggle-btn {
+    top: 15px;
+    left: -50px;
+    position: fixed;
+    border-top: 3px solid rgb(176, 176, 176);
+    border-right: 3px solid rgb(176, 176, 176);
+    border-bottom: 3px solid rgb(176, 176, 176);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgba(197, 197, 197, .7);
+    width: 50px;
+    height: 50px;
+    
+}
+
+#offcanvas-toggle-btn div {
+    margin: 5px 0;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 5px;
+}
+
+#offcanvas-toggle-btn:hover {
+    animation: offcanvas-toggle-btn-hover .1s forwards;
+}
+
+#offcanvas-toggle-btn:active {
+    animation: offcanvas-toggle-btn-active .2s forwards;
 }
