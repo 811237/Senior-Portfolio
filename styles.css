@@ -17,13 +17,13 @@
 /*MEDIA QUERIES*/
 @media (min-width: 1024px) {
     .main {
-        width: 65%;
+        width: 75%;
     }
 }
 
 @media (min-width: 768px) {
     .main {
-        width: 80%;
+        width: 85%;
     }
 }
 
