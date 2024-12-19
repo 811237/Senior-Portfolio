@@ -55,6 +55,7 @@ main {
 
 .accordion-card {
     background-color: rgb(56, 56, 56);
+    color: rgb(239, 239, 239);
 }
 
 .ac-top {
@@ -68,8 +69,25 @@ main {
 }
 
 .accordion a {
-
     width: 100%;
+    color: rgb(239, 239, 239);
+}
+
+.accordion a:hover {
+    color: rgb(134, 134, 255);
+}
+
+.card-body {
+    text-align: center;
+    margin: 0px 15px;
+}
+
+.web-link {
+    color: rgb(124, 124, 231)!important;
+}
+
+.web-link:hover {
+    color: rgb(197, 197, 197)!important;
 }
 
 #offcanvas {
@@ -151,19 +169,19 @@ main {
 
 /*MEDIA QUERIES*/
 @media (min-width: 1024px) {
-    .main {
-        width: 75%;
+    main {
+        width: 60vw;
     }
 }
 
-@media (min-width: 768px) {
-    .main {
-        width: 85%;
+@media (min-width: 769px) and (max-width: 1023px) {
+    main {
+        width: 75vw;
     }
 }
 
-@media (min-width: 512px) {
-    .main {
-        width: 95%;
+@media (max-width: 768px) {
+    main {
+        width: 95vw;
     }
 }
